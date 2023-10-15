@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import Menu
 import random
 
 flashcards = []
@@ -33,8 +34,24 @@ def mostrar_resposta():
 def passar_para_proxima_pergunta():
     mostrar_flashcard()
 
+def ver_todas_perguntas():
+    if flashcards:
+        todas_perguntas = "\n".join([card[0] for card in flashcards])
+        pergunta_label.config(text=todas_perguntas)
+        resposta_label.config(text="")
+    else:
+        pergunta_label.config(text="Nenhum flashcard disponível")
+        resposta_label.config(text="")
+
 app = tk.Tk()
 app.title("Flashcards")
+
+menu_bar = Menu(app)
+app.config(menu=menu_bar)
+
+file_menu = Menu(menu_bar)
+menu_bar.add_cascade(label="Opções", menu=file_menu)
+file_menu.add_command(label="Ver Todas as Perguntas", command=ver_todas_perguntas)
 
 pergunta_label = tk.Label(app, text="", font=("Arial", 14))
 pergunta_label.pack(pady=10)

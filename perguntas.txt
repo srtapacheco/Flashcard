@@ -1,8 +1,42 @@
-O que é um protocolo?
-Um protocolo é um conjunto de regras que os computadores seguem para se comunicar na internet, assim como as pessoas seguem regras de etiqueta para se comunicar na vida cotidiana.
+Quais são os componentes básicos da Internet?
+sistemas finais (como computadores, smartphones, etc.) -enlaces de comunicação (cabos, fibras óticas, etc.) -comutadores de pacotes (roteadores e comutadores de camada de enlace) -Provedores de Serviços de Internet (ISPs).
 
-Qual é a semelhança entre protocolos humanos e protocolos de rede?
-Tanto os protocolos humanos quanto os protocolos de rede envolvem regras de comunicação, mensagens específicas e ações realizadas em resposta a essas mensagens.
+Como os dados são transmitidos na Internet?
+Os dados são segmentados em pacotes, que são enviados pela rede de computadores por meio de enlaces de comunicação e comutadores de pacotes, como roteadores e comutadores de camada de enlace.
+
+O que são sistemas finais?
+Sistemas finais são dispositivos, como computadores, smartphones, consoles de jogos e sensores, que estão conectados à Internet e executam aplicações.
+
+O que são comutadores de pacotes?
+Comutadores de pacotes são dispositivos na Internet que encaminham pacotes de dados de entrada para saída, formando o núcleo da rede.
+
+O que é um protocolo?
+Um protocolo é um conjunto de regras que os computadores seguem para se comunicar na internet, assim como as pessoas seguem regras de etiqueta para se comunicar na vida cotidiana. Protocolos são conjuntos de regras que controlam o envio e o recebimento de informações na Internet.
 
 Dê um exemplo de um protocolo de rede.
-Um exemplo de um protocolo de rede é o protocolo usado ao acessar um site da web, onde seu computador segue um conjunto de regras para se conectar ao servidor e receber as páginas da web.
+TCP/IP. Um exemplo de um protocolo de rede é o protocolo usado ao acessar um site da web, onde seu computador segue um conjunto de regras para se conectar ao servidor e receber as páginas da web.
+
+Qual é uma das principais funções de um ISP?
+Uma das principais funções de um ISP é fornecer conexão à Internet
+
+O que é ISP?
+Provedor de serviços de Internet.
+
+Qual é a função de roteamento de tráfego realizada por um ISP?
+Um ISP roteia o tráfego de dados da Internet, garantindo que os dados sejam direcionados corretamente pela rede.
+
+Além da conexão à Internet, o que mais um ISP pode oferecer?
+ISPs frequentemente oferecem serviços adicionais, como e-mail, hospedagem de sites e segurança cibernética.
+
+O que são endereços IP?
+Endereços IP são como números de telefone na Internet, usados para identificar e localizar dispositivos na rede.
+
+O que são protocolos TCP/IP?
+TCP/IP (Transmission Control Protocol/Internet Protocol) são os principais protocolos da Internet que controlam o envio e recebimento de informações entre sistemas finais.
+
+ O que é uma API da Internet?
+A API da Internet é um conjunto de regras que o software emissor deve seguir para solicitar à infraestrutura da Internet o envio de dados a um software receptor.
+
+O que são RFCs?
+RFCs (Request For Comments) são documentos padronizados desenvolvidos pela IETF que definem protocolos, como TCP, IP e HTTP, para a Internet.
+
