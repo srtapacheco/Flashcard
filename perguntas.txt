@@ -1,0 +1,8 @@
+O que é um protocolo?
+Um protocolo é um conjunto de regras que os computadores seguem para se comunicar na internet, assim como as pessoas seguem regras de etiqueta para se comunicar na vida cotidiana.
+
+Qual é a semelhança entre protocolos humanos e protocolos de rede?
+Tanto os protocolos humanos quanto os protocolos de rede envolvem regras de comunicação, mensagens específicas e ações realizadas em resposta a essas mensagens.
+
+Dê um exemplo de um protocolo de rede.
+Um exemplo de um protocolo de rede é o protocolo usado ao acessar um site da web, onde seu computador segue um conjunto de regras para se conectar ao servidor e receber as páginas da web.
