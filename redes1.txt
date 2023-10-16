@@ -1,0 +1,64 @@
+#1.1.1
+
+O que são sistemas finais?
+Dispositivos conectados à Internet, como PCs, laptops, smartphones. Eles são chamados "sistemas finais" porque são os pontos finais ou extremidades da rede onde os usuários interagem diretamente com a Internet
+
+O que são enlaces de comunicação?
+São os meios físicos pelos quais os dados são transmitidos entre sistemas finais
+
+Quais sao os meios fisicos que os enlacede comunicação podem ser constituidos?
+1.Cabos (fibras óticas ou coaxiais), 2.ondas de rádio (wifi, bluetooth, satélite), 3. fios de cobre
+
+O que são pacotes na Internet?
+Segmentos de dados enviados entre sistemas finais que são transmitidos pela rede e remontados no destino
+
+O que fazem os comutadores de pacotes?
+Roteadores e comutadores de camada de enlace encaminham pacotes para seus destinos finais.
+
+O que é um pacote de dados?
+Um pacote de dados é uma unidade de informação que resulta da segmentação dos dados originais. Ele inclui dados e informações de controle, como endereços de origem e destino.
+
+O que é segmentação de dados em redes de computadores?
+A segmentação de dados é o processo de dividir informações em pacotes menores, chamados de pacotes, para que possam ser transmitidos de forma eficiente através de uma rede.
+
+Qual é o propósito da segmentação de dados?
+O propósito da segmentação de dados é permitir a transmissão eficiente de informações em redes, uma vez que diferentes partes dos dados podem ser transmitidas em paralelo.
+
+Quais são as vantagens da segmentação de dados?
+1. capacidade de lidar com grandes volumes de informações, 2.minimizar a perda de dados em caso de erros
+
+Qual é o processo de remontagem de pacotes?
+O processo de remontagem de pacotes ocorre no sistema final de destino, onde os pacotes individuais são recebidos e reorganizados na ordem correta para reconstruir os dados originais.
+
+Quais protocolos de rede usam segmentação de dados?
+Protocolos como o TCP (Transmission Control Protocol) e o IP (Internet Protocol) utilizam segmentação de dados para transmitir informações através da Internet.
+
+O que é uma rota ou caminho na rede?
+A sequência de enlaces e comutadores que um pacote percorre desde o sistema final remetente até o sistema final receptor.
+====
+O que é roteamento de pacotes?
+Roteamento de pacotes é o processo de encaminhar pacotes de dados de uma origem para um destino através de uma rede de computadores.
+
+Qual é o objetivo do roteamento de pacotes?
+O objetivo do roteamento de pacotes é determinar o melhor caminho (rota) para que os pacotes alcancem o destino de forma eficiente.
+
+O que são roteadores em redes de computadores?
+Roteadores são dispositivos de rede que desempenham um papel fundamental no roteamento de pacotes, tomando decisões sobre como encaminhar pacotes com base em informações de destino.
+
+Quais informações os roteadores usam para tomar decisões de roteamento?
+Os roteadores usam tabelas de roteamento que contêm informações sobre destinos, métricas de caminhos e custos associados a diferentes rotas.
+
+O que é uma rota padrão (default route)?
+Uma rota padrão é uma rota usada quando um roteador não tem uma rota específica para um destino. Ela é usada para encaminhar pacotes desconhecidos.
+
+Como os roteadores determinam a melhor rota para um pacote?
+Os roteadores geralmente usam algoritmos de roteamento para calcular a melhor rota com base em métricas como distância, largura de banda, atraso e custo.
+
+O que são ISPs?
+Provedores de Serviços de Internet que fornecem acesso à rede para sistemas finais, incluindo diferentes tipos de acesso.
+
+O que são protocolos da Internet?
+Conjuntos de regras que controlam o envio e recebimento de informações na rede, como o TCP/IP.
+
+O que são RFCs?
+Documentos padronizados da IETF (Internet Engineering Task Force) que definem protocolos e especificações para a Internet.

@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import Menu
+from tkinter import Menu, filedialog
 import random
 
 flashcards = []
@@ -43,6 +43,13 @@ def ver_todas_perguntas():
         pergunta_label.config(text="Nenhum flashcard disponível")
         resposta_label.config(text="")
 
+def escolher_arquivo():
+    nome_arquivo = filedialog.askopenfilename(filetypes=[("Arquivos de Texto", "*.txt")])
+    if nome_arquivo:
+        flashcards.clear()
+        ler_flashcards_do_arquivo(nome_arquivo)
+        mostrar_flashcard()
+
 app = tk.Tk()
 app.title("Flashcards")
 
@@ -52,6 +59,7 @@ app.config(menu=menu_bar)
 file_menu = Menu(menu_bar)
 menu_bar.add_cascade(label="Opções", menu=file_menu)
 file_menu.add_command(label="Ver Todas as Perguntas", command=ver_todas_perguntas)
+file_menu.add_command(label="Escolher Arquivo", command=escolher_arquivo)
 
 pergunta_label = tk.Label(app, text="", font=("Arial", 14))
 pergunta_label.pack(pady=10)
@@ -68,10 +76,7 @@ botoes_frame.pack(pady=10)
 lembrar_button = tk.Button(botoes_frame, text="Lembro", command=passar_para_proxima_pergunta)
 lembrar_button.pack(side="left")
 
-nao_lembrar_button = tk.Button(botoes_frame, text="Não lembro", command=passar_para_proxima_pergunta)
-nao_lembrar_button.pack(side="left")
-
-ler_flashcards_do_arquivo("perguntas.txt")
-mostrar_flashcard()
+nao_lembro_button = tk.Button(botoes_frame, text="Não lembro", command=passar_para_proxima_pergunta)
+nao_lembro_button.pack(side="left")
 
 app.mainloop()
