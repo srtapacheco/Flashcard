@@ -1,16 +1,10 @@
-#1.1.1
-
-O que são sistemas finais?
-Dispositivos conectados à Internet, como PCs, laptops, smartphones. Eles são chamados "sistemas finais" porque são os pontos finais ou extremidades da rede onde os usuários interagem diretamente com a Internet
+#1.1.1 O que é a internet =======================================
 
 O que são enlaces de comunicação?
 São os meios físicos pelos quais os dados são transmitidos entre sistemas finais
 
 Quais sao os meios fisicos que os enlacede comunicação podem ser constituidos?
 1.Cabos (fibras óticas ou coaxiais), 2.ondas de rádio (wifi, bluetooth, satélite), 3. fios de cobre
-
-O que são pacotes na Internet?
-Segmentos de dados enviados entre sistemas finais que são transmitidos pela rede e remontados no destino
 
 O que fazem os comutadores de pacotes?
 Roteadores e comutadores de camada de enlace encaminham pacotes para seus destinos finais.
@@ -35,7 +29,7 @@ Protocolos como o TCP (Transmission Control Protocol) e o IP (Internet Protocol)
 
 O que é uma rota ou caminho na rede?
 A sequência de enlaces e comutadores que um pacote percorre desde o sistema final remetente até o sistema final receptor.
-====
+
 O que é roteamento de pacotes?
 Roteamento de pacotes é o processo de encaminhar pacotes de dados de uma origem para um destino através de uma rede de computadores.
 
@@ -45,20 +39,129 @@ O objetivo do roteamento de pacotes é determinar o melhor caminho (rota) para q
 O que são roteadores em redes de computadores?
 Roteadores são dispositivos de rede que desempenham um papel fundamental no roteamento de pacotes, tomando decisões sobre como encaminhar pacotes com base em informações de destino.
 
-Quais informações os roteadores usam para tomar decisões de roteamento?
-Os roteadores usam tabelas de roteamento que contêm informações sobre destinos, métricas de caminhos e custos associados a diferentes rotas.
-
-O que é uma rota padrão (default route)?
-Uma rota padrão é uma rota usada quando um roteador não tem uma rota específica para um destino. Ela é usada para encaminhar pacotes desconhecidos.
-
-Como os roteadores determinam a melhor rota para um pacote?
-Os roteadores geralmente usam algoritmos de roteamento para calcular a melhor rota com base em métricas como distância, largura de banda, atraso e custo.
-
 O que são ISPs?
 Provedores de Serviços de Internet que fornecem acesso à rede para sistemas finais, incluindo diferentes tipos de acesso.
 
 O que são protocolos da Internet?
 Conjuntos de regras que controlam o envio e recebimento de informações na rede, como o TCP/IP.
 
+Dê um exemplo de protocolo de rede com o qual você provavelmente está familiarizado
+protocolo HTTP (Hypertext Transfer Protocol), usado ao fazer requisições a servidores Web. Ele define como os navegadores se comunicam com servidores para buscar páginas da Web.
+
+Por que é importante que duas entidades comunicantes executem o mesmo protocolo?
+Para que uma comunicação eficaz ocorra, é fundamental que duas ou mais entidades comuni­cantes executem o mesmo protocolo, garantindo que entendam as mensagens e ações necessárias para completar uma tarefa de comunicação.
+
 O que são RFCs?
 Documentos padronizados da IETF (Internet Engineering Task Force) que definem protocolos e especificações para a Internet.
+
+#1.2 a Periferia da internet =======================================
+
+O que são sistemas finais?
+Dispositivos conectados à Internet, como PCs de mesa, notebooks, smartphones, tablets. Eles são chamados "sistemas finais" porque são os pontos finais ou extremidades da rede onde os usuários interagem diretamente com a Internet
+
+Qual é a função de servidores na Internet?
+São máquinas que armazenam e distribuem páginas da Web, vídeo em tempo real, e-mails retransmitidos e outros serviços. Estão localizados datacenters.
+
+O que são clientes e servidores na terminologia de sistemas finais?
+Clientes são sistemas finais, como PCs, smartphones e tablets, que normalmente solicitam serviços ou conteúdo da Internet. Servidores são máquinas armazenam e fornecem esses serviços ou conteúdos aos clientes.
+
+#1.2.1 redes de acesso e #1.2.2 meios físicos
+
+Quais são os tipos de acesso residencial de banda larga? Quais sao os predominantes?
+São DSL, cabo, fibra ótica, discagem e satélite.  Os predominantes sao DSL e Cabo. O DSL usa as linhas telefônicas existentes, enquanto o cabo usa as redes de TV a cabo. Eles oferecem velocidades diferentes de internet.
+
+O que é DSL?
+DSL é uma tecnologia de conexão à Internet que usa linhas telefônicas tradicionais para fornecer acesso à web.
+
+Qual é a característica mais notável da DSL em relação à velocidade?
+A DSL é assimétrica, o que significa que a velocidade de download é mais rápida do que a velocidade de upload.
+
+Por que a DSL é assimétrica?
+A assimetria é usada porque a maioria das pessoas faz mais download (receber dados) do que upload (enviar dados) ao usar a Internet.
+
+O que é FTTH?
+"Fiber to the Home" (Fibra Ótica até a Casa). É uma tecnologia que usa fibras óticas para fornecer alta velocidade de internet diretamente para as casas.
+
+Como o FTTH funciona?
+O FTTH usa cabos de fibra ótica para transmitir dados. Essas fibras são mais finas que um cabelo humano e podem transportar dados na forma de luz. Isso permite taxas de transmissão de internet muito rápidas e estáveis.
+
+Como funcionam o acesso a rede via Satélite? e Discagem? 
+O acesso por satélite usa satélites para transmitir a internet para áreas remotas. A discagem usa linhas telefônicas tradicionais, mas é muito mais lenta.
+
+O que significa a sigla LAN?
+"LAN" significa "Local Area Network" (Rede Local). Uma LAN é uma rede de computadores que opera em uma área geograficamente restrita, como um edifício, campus ou área residencial.
+
+Como os dispositivos em uma LAN são conectados?
+Os dispositivos em uma LAN são conectados por meio de cabos (como Ethernet) ou conexões sem fio (Wi-Fi).
+
+Quais são as tecnologias utilizadas para oferecer acesso sem fio em longa distância em dispositivos móveis?
+3G e 4G(LTE), permitindo que dispositivos móveis acessem a Internet remotamente.
+
+Como o FTTH difere das tecnologias DSL e cabo?
+1. Meio de Transmissão: FTTH utiliza meio de transmissão via fibra otica, ja DLS usa fios de cobre e o cabo utiliza cabos de tv a cabo baseada em sinais eletricos. Assimetria: FTTH: Pode oferecer velocidades de upload e download simétricas, ja o DSL e o cabo nao, a velocidade de dowload é maior que as de upload. 3. Distancia: FTTH funciona em distâncias longas sem perda de velocidade, ja a DLS e o cabo diminuem a medida que a distancia entre a residência e a central telefônica aumenta e pode ser afetado por inteferencia eletrica. 
+
+#1.3.1 Comutacao de pacotes =======================================
+
+O que são pacotes na Internet?
+Segmentos de dados enviados entre sistemas finais que são transmitidos pela rede e remontados no destino
+
+O que é a transmissão armazena-e-reenvia?(em ingles)
+É um método usado na Internet, onde um dispositivo precisa receber o pacote completo antes de enviá-lo adiante.
+
+O que são atrasos de fila e perda de pacotes na Internet?
+Atrasos de fila ocorrem quando pacotes esperam em filas para serem transmitidos, e a perda de pacotes acontece quando filas ficam cheias e alguns pacotes não chegam ao destino.
+
+Como os dispositivos na Internet sabem para onde enviar os pacotes?
+Eles usam tabelas de encaminhamento que mapeiam endereços de destino para enlaces de saída, e protocolos de roteamento ajudam a configurar essas tabelas.
+
+O que é uma rota fim a fim na Internet?
+Uma rota fim a fim é o caminho que um pacote segue da origem ao destino, passando por vários dispositivos na rede.
+
+Como o Traceroute é usado na Internet?
+É uma ferramenta que permite visualizar a rota exata que os pacotes estão seguindo na Internet, semelhante a usar um GPS para uma viagem de carro.
+
+#1.3.2 Comutação de circuitos =======================================
+
+#1.3.3 uma rede de redes =======================================
+
+#1.4.1 atraso em rede - comutação de pacotes =======================================
+
+#1.4.2 atraso de fila e perda de pacote =======================================
+
+#1.4.3 atraso fim a fim =======================================
+
+#1.4.4 vazão =======================================
+
+#1.5.1 arquitetura de camadas =======================================
+
+#1.5.2 encapsulamento =======================================
+
+#1.6 redes sob ameaça =======================================
+
+#2.1 PrincíPios de aPlicações de rede =======================================
+
+#2.2 a web e o httP =======================================
+
+#2.3 transferência de arQuivo: ftP =======================================
+
+#2.4 correio eletrônico na internet =======================================
+
+#2.5 dns: o serviço de diretório da internet =======================================
+
+#2.6 aPlicações P2P =======================================
+
+#3.1 introdução e serviços de camada de transPorte =======================================
+
+#3.2 multiPlexação e demultiPlexação =======================================
+
+#3.3 transPorte não orientado Para conexão: udP =======================================
+
+#3.4 PrincíPios da transferência confiável de dados =======================================
+
+#3.5 transPorte orientado Para conexão: tcP =======================================
+
+#3.6 PrincíPios de controle de congestionamento =======================================
+
+#3.7 controle de congestionamento no tcP =======================================
+
+
